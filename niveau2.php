@@ -190,7 +190,7 @@ if (!empty($_SESSION['id'])) {
                     </div>
                     <div class="options">
                         <label class="radiocontainer" name="option1">
-                            <input type="radio" name="quizOption" id="1" value="1">
+                            <input type="radio" name="quizOption" id="1" value="1" rightOption>
                             Volvo
                         </label>
                         <label class="radiocontainer" name="option2">
@@ -202,7 +202,7 @@ if (!empty($_SESSION['id'])) {
                             Valeur aléatoire
                         </label>
                         <label class="radiocontainer" name="option4">
-                            <input type="radio" name="quizOption" id="4" value="4" rightOption>
+                            <input type="radio" name="quizOption" id="4" value="4">
                             undefined
                         </label>
                     </div>
@@ -260,7 +260,7 @@ if (!empty($_SESSION['id'])) {
                             one two
                         </label>
                         <label class="radiocontainer" name="option2">
-                            <input type="radio" name="quizOption" id="2" value="2" rightOption>
+                            <input type="radio" name="quizOption" id="2" value="2">
                             error
                         </label>
                         <label class="radiocontainer" name="option3">
@@ -268,7 +268,7 @@ if (!empty($_SESSION['id'])) {
                             one three
                         </label>
                         <label class="radiocontainer" name="option4">
-                            <input type="radio" name="quizOption" id="4" value="4">
+                            <input type="radio" name="quizOption" id="4" value="4" rightOption>
                             two three
                         </label>
                     </div>
